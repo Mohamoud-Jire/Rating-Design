@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Overpass:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Overpass', sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  width: 100%;
+  height: 100vh;
+
+}
+
+
+.rating {
+
+  width: 410px;
+  height: 420px;
+  background: linear-gradient(to bottom, hsl(213, 19%, 18%), hsl(228, 13%, 15%));
+  border-radius: 30px;
+  box-shadow: 1px 3px 35px black;
+
+}
+
+.image {
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px 0 0 120px;
+}
+
+
+.text-content {
+
+  text-align: center;
+  margin: 20px 0 0 105px;
+  color: hsl(25, 97%, 53%);
+  background-color: hsl(213, 19%, 23%);
+  width: 50%;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 30px;
+  /* font-weight: 100; */
+  font-size: 14px;
+}
+
+.thank-you {
+
+  color: white;
+  text-align: center;
+  margin-top: 45px;
+
+}
+
+.paragraph-text {
+
+  text-align: center;
+  margin-top: 20px;
+  color: hsl(217, 12%, 63%);
+
+}
+
+
+.attribution { font-size: 11px; text-align: center; margin-top: 50px; color: white;}
+
+.attribution a { color: hsl(25, 94%, 72%); }

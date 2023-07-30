@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&family=Overpass:wght@400;700&family=Poppins:wght@100;200;300;400;500;600;700&display=swap');
+
+* {
+
+  margin: 0;
+  padding: 0;
+
+}
+
+body {
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Overpass', sans-serif;
+  background-color: hsl(216, 12%, 8%);
+  width: 100%;
+  height: 100vh;
+  
+}
+
+
+.rating {
+
+  width: 410px;
+  height: 420px;
+  background: linear-gradient(to bottom, hsl(213, 19%, 18%), hsl(228, 13%, 15%));
+  border-radius: 30px;
+  box-shadow: 1px 3px 35px black;
+
+}
+
+.star {
+
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(213, 19%, 23%);
+  width: 45px;
+  height: 45px;
+  border-radius: 40px;
+  margin: 35px 0 0 25px;
+  
+}
+
+
+.question {
+
+  margin: 35px 0 0 25px;
+  color: white;
+
+}
+
+.text-content {
+
+  color: hsl(217, 12%, 63%);
+  margin: 10px 0 0 25px;
+
+}
+
+.numbers {
+
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  
+  color: hsl(217, 12%, 63%);
+}
+
+.numbers a {
+
+  text-decoration: none;
+  color: hsl(217, 12%, 63%);
+  
+
+}
+
+.numbers a div {
+
+  transition: all 0.3s ease;
+
+}
+
+.numbers a div:hover {
+
+  background-color: hsl(217, 12%, 63%);
+  cursor: pointer;
+  color: hsl(213, 19%, 18%);
+}
+
+
+.one, .two, .three, .four, .five {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  background-color: hsl(213, 19%, 23%);
+  border-radius: 40px;
+  margin-top: 35px;
+}
+
+.submit {
+
+  text-align: center;
+  margin-top: 50px;
+  
+}
+
+
+.submit button {
+
+  padding: 10px 35%;
+  background-color: hsl(25, 97%, 53%);
+  border: none;
+  border-radius: 50px;
+  color: white;
+  font-size: 15px;
+  transition: all 0.5s ease;
+
+}
+
+.submit button:hover {
+
+  cursor: pointer;
+  color: hsl(25, 97%, 53%);
+  background-color: white;
+  
+
+}
+
+
+
+
+
+.attribution { font-size: 11px; text-align: center; margin-top: 50px; color: white;}
+
+.attribution a { color: hsl(25, 94%, 72%); }
